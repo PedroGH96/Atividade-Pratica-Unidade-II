@@ -9,8 +9,7 @@
 Aprensentação da análise comparativa de cinco algoritmos de ordenação, sendo eles BubbleSort, InsertionSort, SelectionSort, MergeSort e QuickSort. O objetivo principal deste trabalho é uma breve contextualização sobre a importância dos algoritmos de
 ordenação em diferentes cenários de dados (random, aproximadamente ordenados e inversamente ordenados) para diversos tamanhos de entrada. Além disso, através da medição do tempo de execução, número de comparações e número de trocas, mostrará as complexidades teóricas conhecidas e identificar as aplicações mais adequadas para cada algoritmo
 
-## 2. Fundamentação Teórica
-
+## 2. 
 Nesta seção, serão apresentados os cinco algoritmos de ordenação analisados neste estudo, juntamente com suas complexidades teóricas de tempo e espaço.
 
 ### 2.1. Bubble Sort
