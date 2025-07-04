@@ -34,11 +34,11 @@ O InsertionSort é um algoritmo de ordenação simples e intuitivo. Baseado na i
 
 ### 2.3. SelectionSort
 
-*O Selection Sort é um algoritmo de ordenação onde Dado um vetor de entrada v[N]
-*○ Selecione o primeir menor elemento e coloque-o na primeira posição
-*○ Selecione o segundo menor elemento e coloque-o na segunda posição
+* O Selection Sort é um algoritmo de ordenação onde Dado um vetor de entrada v[N]
+* ○ Selecione o primeir menor elemento e coloque-o na primeira posição
+* ○ Selecione o segundo menor elemento e coloque-o na segunda posição
 * …
-*○ Selecione o N-ésimo menor elemento e coloque-o na N-ésima posição 
+* ○ Selecione o N-ésimo menor elemento e coloque-o na N-ésima posição 
 
 *   **Complexidade:**
     *   **Melhor Caso:** O(n²) - o número de comparações e trocas é sempre o mesmo, independentemente do estado inicial do array.
