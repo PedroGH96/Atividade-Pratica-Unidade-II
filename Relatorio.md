@@ -1,19 +1,13 @@
 # Atividade Prática Unidade II: Análise Comparativa de Algoritmos de Ordenação
 
-Turma: IMD0029
-Aluno: Pedro Henrique de Araujo Alves
-Matrícula: 20230090820 
+#Turma: IMD0029
+#Aluno: Pedro Henrique de Araujo Alves
+#Matrícula: 20230090820 
 
 ## 1. Introdução
 
-Este relatório apresenta uma análise comparativa de cinco algoritmos de ordenação fundamentais: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort e Quick Sort. O objetivo principal deste trabalho é investigar o desempenho prático desses algoritmos em diferentes cenários de dados (aleatórios, quase ordenados e inversamente ordenados) e para diversos tamanhos de entrada. Através da medição de métricas como tempo de execução, número de comparações e número de trocas, buscamos validar as complexidades teóricas conhecidas e identificar as aplicações mais adequadas para cada algoritmo.
-
-A ordenação de dados é uma operação fundamental em ciência da computação, com vasta aplicação em diversas áreas, desde bancos de dados e sistemas de busca até gráficos computacionais e bioinformática. A escolha do algoritmo de ordenação correto pode ter um impacto significativo na eficiência e no desempenho de um sistema. Portanto, compreender as características de cada algoritmo, tanto teóricas quanto práticas, é crucial para o desenvolvimento de soluções computacionais otimizadas.
-
-Este documento está estruturado para abordar a fundamentação teórica dos algoritmos, a metodologia experimental empregada, os resultados obtidos e uma análise crítica desses resultados, culminando em conclusões sobre o desempenho relativo dos algoritmos e suas aplicações recomendadas.
-
-
-
+Aprensentação da análise comparativa de cinco algoritmos de ordenação, sendo eles BubbleSort, InsertionSort, SelectionSort, MergeSort e QuickSort. O objetivo principal deste trabalho é uma breve contextualização sobre a importância dos algoritmos de
+ordenação em diferentes cenários de dados (random, aproximadamente ordenados e inversamente ordenados) para diversos tamanhos de entrada. Além disso, através da medição do tempo de execução, número de comparações e número de trocas, mostrará as complexidades teóricas conhecidas e identificar as aplicações mais adequadas para cada algoritmo
 
 ## 2. Fundamentação Teórica
 
