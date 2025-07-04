@@ -1,6 +1,6 @@
 # Atividade Prática Unidade II: Análise Comparativa de Algoritmos de Ordenação
 
-# Turma: IMD0029 # Aluno: Pedro Henrique de Araujo Alves  # Matrícula: 20230090820 
+# Turma: IMD0029  Aluno: Pedro Henrique de Araujo Alves                                Matrícula: 20230090820 
 
 ## 1. Introdução
 
