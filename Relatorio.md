@@ -22,7 +22,7 @@ cada passagem pelo vetor, o maior elemento “flutua” para o final da lista.
     *   **Melhor Caso:** O(n) - quando o array já está ordenado. O algoritmo ainda percorre o array, mas não realiza trocas.
     *   **Pior Caso:** O(n²) - quando o array está inversamente ordenado. Cada elemento precisa ser movido para sua posição correta através de múltiplas passagens.
     *   **Caso Médio:** O(n²) - o desempenho médio é similar ao pior caso devido ao grande número de comparações e trocas necessárias.
-    *   
+  
 ### 2.2. InsertionSort
 
 O InsertionSort é um algoritmo de ordenação simples e intuitivo. Baseado na ideia de construir constrói a matriz final ordenada um item por vez. 
@@ -34,14 +34,17 @@ O InsertionSort é um algoritmo de ordenação simples e intuitivo. Baseado na i
 
 ### 2.3. SelectionSort
 
-O Selection Sort é um algoritmo de ordenação in-loco que divide a lista em duas partes: a sublista de itens já ordenados, que é construída do início do array, e a sublista de itens restantes não ordenados. O algoritmo encontra o menor elemento na sublista não ordenada e o troca com o elemento mais à esquerda da sublista não ordenada, movendo-o para a parte ordenada.
+O Selection Sort é um algoritmo de ordenação onde Dado um vetor de entrada v[N]
+○ Selecione o primeir menor elemento e coloque-o na primeira posição
+○ Selecione o segundo menor elemento e coloque-o na segunda posição
+ …
+○ Selecione o N-ésimo menor elemento e coloque-o na N-ésima posição 
 
-*   **Complexidade de Tempo:**
+*   **Complexidade:**
     *   **Melhor Caso:** O(n²) - o número de comparações e trocas é sempre o mesmo, independentemente do estado inicial do array.
     *   **Pior Caso:** O(n²) - o número de comparações e trocas é sempre o mesmo.
     *   **Caso Médio:** O(n²) - o desempenho médio é sempre o mesmo.
-*   **Complexidade de Espaço:** O(1) - é um algoritmo de ordenação in-loco.
-
+      
 ### 2.4. Merge Sort
 
 O Merge Sort é um algoritmo de ordenação eficiente, baseado na estratégia de dividir e conquistar. Ele divide recursivamente o array em duas metades até que cada sub-array contenha apenas um elemento (que é considerado ordenado). Em seguida, ele mescla (merge) essas sub-arrays de forma ordenada para produzir arrays maiores e ordenados.
