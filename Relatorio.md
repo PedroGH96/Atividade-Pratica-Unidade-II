@@ -9,33 +9,30 @@
 Aprensentação da análise comparativa de cinco algoritmos de ordenação, sendo eles BubbleSort, InsertionSort, SelectionSort, MergeSort e QuickSort. O objetivo principal deste trabalho é uma breve contextualização sobre a importância dos algoritmos de
 ordenação em diferentes cenários de dados (random, aproximadamente ordenados e inversamente ordenados) para diversos tamanhos de entrada. Além disso, através da medição do tempo de execução, número de comparações e número de trocas, mostrará as complexidades teóricas conhecidas e identificar as aplicações mais adequadas para cada algoritmo
 
-## 2. 
-Nesta seção, serão apresentados os cinco algoritmos de ordenação analisados neste estudo, juntamente com suas complexidades teóricas de tempo e espaço.
+## 2. Algoritmos de ordenacao
+Uma breve apresentação dos cinco algoritmos de ordenação analisados com suas complexidades teóricas de tempo e espaço
 
-### 2.1. Bubble Sort
+### 2.1. BubbleSort
 
-O Bubble Sort é um algoritmo de ordenação simples que funciona repetidamente percorrendo a lista, comparando pares adjacentes de elementos e trocando-os se estiverem na ordem errada. O processo é repetido até que nenhuma troca seja necessária, indicando que a lista está ordenada. É um algoritmo estável e de ordenação in-loco.
+O Bubble Sort é um algoritmo de ordenação simples, baseado na ideia de repetidamente
+comparar pares de elementos adjacentes e trocar de posição se estiverem fora de ordem. A
+cada passagem pelo vetor, o maior elemento “flutua” para o final da lista.
 
-*   **Complexidade de Tempo:**
+*   **Complexidade:**
     *   **Melhor Caso:** O(n) - quando o array já está ordenado. O algoritmo ainda percorre o array, mas não realiza trocas.
     *   **Pior Caso:** O(n²) - quando o array está inversamente ordenado. Cada elemento precisa ser movido para sua posição correta através de múltiplas passagens.
     *   **Caso Médio:** O(n²) - o desempenho médio é similar ao pior caso devido ao grande número de comparações e trocas necessárias.
-*   **Complexidade de Espaço:** O(1) - é um algoritmo de ordenação in-loco, utilizando apenas uma quantidade constante de espaço extra.
+    *   
+### 2.2. InsertionSort
 
-### 2.2. Insertion Sort
+O InsertionSort é um algoritmo de ordenação simples e intuitivo. Baseado na ideia de construir constrói a matriz final ordenada um item por vez. 
 
-O Insertion Sort constrói a matriz final ordenada um item por vez. É significativamente mais eficiente em listas que já estão substancialmente ordenadas do que em listas aleatórias ou inversamente ordenadas. O algoritmo funciona 
-
-
-dividindo o array em uma parte ordenada e uma parte não ordenada. Ele itera através da parte não ordenada, pegando um elemento por vez e inserindo-o na posição correta na parte ordenada.
-
-*   **Complexidade de Tempo:**
+*   **Complexidade:**
     *   **Melhor Caso:** O(n) - quando o array já está ordenado. O algoritmo faz apenas uma passagem, comparando cada elemento com o último elemento da parte ordenada.
     *   **Pior Caso:** O(n²) - quando o array está inversamente ordenado. Cada elemento precisa ser comparado e movido através de toda a parte ordenada.
     *   **Caso Médio:** O(n²) - o desempenho médio é similar ao pior caso.
-*   **Complexidade de Espaço:** O(1) - é um algoritmo de ordenação in-loco.
 
-### 2.3. Selection Sort
+### 2.3. SelectionSort
 
 O Selection Sort é um algoritmo de ordenação in-loco que divide a lista em duas partes: a sublista de itens já ordenados, que é construída do início do array, e a sublista de itens restantes não ordenados. O algoritmo encontra o menor elemento na sublista não ordenada e o troca com o elemento mais à esquerda da sublista não ordenada, movendo-o para a parte ordenada.
 
