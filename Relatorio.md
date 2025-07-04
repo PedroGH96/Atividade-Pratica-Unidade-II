@@ -1,8 +1,9 @@
 # Atividade Prática Unidade II: Análise Comparativa de Algoritmos de Ordenação
 
 # Turma: IMD0029 
-# Aluno: Pedro Henrique de Araujo Alves 
-# Matrícula: 20230090820 
+ Aluno: Pedro Henrique de Araujo Alves 
+ Matrícula: 20230090820 
+
 ## 1. Introdução
 
 Este relatório apresenta uma análise comparativa de cinco algoritmos de ordenação fundamentais: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort e Quick Sort. O objetivo principal deste trabalho é investigar o desempenho prático desses algoritmos em diferentes cenários de dados (aleatórios, quase ordenados e inversamente ordenados) e para diversos tamanhos de entrada. Através da medição de métricas como tempo de execução, número de comparações e número de trocas, buscamos validar as complexidades teóricas conhecidas e identificar as aplicações mais adequadas para cada algoritmo.
