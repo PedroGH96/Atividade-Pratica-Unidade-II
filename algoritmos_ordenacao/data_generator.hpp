@@ -23,7 +23,7 @@ namespace DataGenerator {
         for (int i = 0; i < size; ++i) {
             arr[i] = i;
         }
-       
+   
         std::random_device rd;
         std::mt19937 gen(rd());
         int swaps = size / 100; 
@@ -45,5 +45,5 @@ namespace DataGenerator {
 
 }
 
-#endif
+#endif 
 
