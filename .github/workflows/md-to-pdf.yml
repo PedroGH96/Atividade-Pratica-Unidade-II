@@ -1,0 +1,26 @@
+name: Convert MD to PDF
+on: [push]  # Executa a cada push
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Baixa o repositório
+      - uses: actions/checkout@v4
+
+      # 2. Usa o Pandoc + LaTeX para converter
+      - name: Generate PDF
+        uses: docker://pandoc/latex:latest
+        with:
+          args: >
+            -s README.md  # Arquivo de entrada
+            -o README.pdf  # Arquivo de saída
+            --template=eisvogel  # Template profissional
+            --listings  # Formata código-fonte
+
+      # 3. Disponibiliza o PDF como artefato
+      - name: Upload PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-pdf
+          path: README.pdf
